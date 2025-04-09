@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylemen's</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/fondos.css">
+    <link rel="icon" href="../img/ICON.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .menu-open {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center p-4 bg-blue-600 text-white shadow-md">
+        <button id="menu-btn" class="text-white focus:outline-none">
+            <i class="bi bi-list text-2xl"></i>
+        </button>
+        <div class="text-lg font-bold">STYLEMEN'S</div>
+        <div class="text-lg">
+            <img src="../img/icon.png" alt="Logo" width="50" height="50">
+        </div>
+    </header>
+
+    <nav id="menu"
+        class="fixed top-0 left-0 w-64 h-full bg-white shadow-lg transform transition-transform ease-in-out duration-300 z-10 -translate-x-full">
+        <button id="close-menu" class="text-red-600 p-2">x</button>
+        <ul class="p-6 space-y-4">
+            <li><a href="../INDEX.html" class="text-gray-800 hover:text-blue-600">INICIO</a></li>
+            <li><a href="../mx/historia.html" class="text-gray-800 hover:text-blue-600">Historia</a></li>
+            <li><a href="../mx/productos.html" class="text-gray-800 hover:text-blue-600">Productos</a></li>
+            <li><a href="../mx/novedades.html" class="text-gray-800 hover:text-blue-600">Novedades</a></li>
+            <li><a href="../mx/preguntas.html" class="text-gray-800 hover:text-blue-600">Preguntas comunes</a></li>
+            <li><a href="../mx/login.html" class="text-gray-800 hover:text-blue-600">Login</a></li>
+            <li><a href="../mx/contactos.html" class="text-gray-800 hover:text-blue-600">Contacto</a></li>
+            <li><a href="../mx/ubicacion.html" class="text-gray-800 hover:text-blue-600">Ubicacion</a></li>
+
+        </ul>
+    </nav>
+
+
+
+
+    <body class="bg-gray-900 text-white">
+        <div class="max-w-md mx-auto bg-gray-800 rounded-lg overflow-hidden shadow-lg mt-10">
+            <div class="relative">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.0405857960036!2d-88.04163962529188!3d20.789645895949434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5199c798528ebf%3A0xa43f609c2f55240!2sSTYLEMEN%C2%B4S!5e0!3m2!1ses-419!2smx!4v1741196484098!5m2!1ses-419!2smx"
+                    width="900" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="absolute bottom-0 left-0 p-2">
+                    <a class="text-white text-sm bg-gray-700 px-2 py-1 rounded"
+                        href="https://maps.app.goo.gl/4TM27b4WLiXnhvZm9">Mapas</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <footer class="p-4 bg-white shadow-md text-center text-sm">
+            S.A. de C.V. Todos los derechos reservados.
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://www.facebook.com/profile.php?id=100083651065492" target="_blank"
+                    class="text-blue-700 hover:text-green-500">
+                    <i class="bi bi-facebook text-2xl"></i>
+                </a>
+                <a href="https://wa.me/529997067806" target="_blank" class="text-green-500 hover:text-blue-500">
+                    <i class="bi bi-whatsapp text-2xl"></i>
+                </a>
+            </div>
+        </footer>
+
+
+
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../8/js/script.js"></script>
+    </body>
+
+</html>
